@@ -1,0 +1,5 @@
+package com.recode.agenciaVooFeliz.config;
+
+public class SecurityConfig {
+
+}
