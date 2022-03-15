@@ -1,0 +1,10 @@
+package com.recode.agenciaVooFeliz.entities;
+
+public class Passagem {
+	
+	private Long id;
+	private String destino;
+	private Double Preco;
+	private String imagem;
+
+}

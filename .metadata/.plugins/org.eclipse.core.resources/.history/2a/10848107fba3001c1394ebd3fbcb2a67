@@ -1,0 +1,31 @@
+package com.recode.agenciaVooFeliz.entities;
+
+public class CompraPK {
+
+	private Cliente cliente;
+	private Passagem passagem;
+	
+	public CompraPK() {
+		
+	}
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
+	public Passagem getPassagem() {
+		return passagem;
+	}
+
+	public void setPassagem(Passagem passagem) {
+		this.passagem = passagem;
+	}
+	
+	
+	
+	
+}

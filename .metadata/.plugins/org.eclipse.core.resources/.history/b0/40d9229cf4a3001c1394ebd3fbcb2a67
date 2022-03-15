@@ -1,0 +1,29 @@
+package com.recode.agenciaVooFeliz.entities;
+
+public class Compra {
+
+	private CompraPK id = new CompraPK();
+	private Integer quantidade;
+	
+	public Compra() {
+		
+	}
+
+	public CompraPK getId() {
+		return id;
+	}
+
+	public void setId(CompraPK id) {
+		this.id = id;
+	}
+
+	public Integer getQuantidade() {
+		return quantidade;
+	}
+
+	public void setQuantidade(Integer quantidade) {
+		this.quantidade = quantidade;
+	}
+	
+	
+}

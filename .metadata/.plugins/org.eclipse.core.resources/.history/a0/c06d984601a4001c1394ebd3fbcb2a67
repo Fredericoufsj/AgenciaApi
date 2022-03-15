@@ -1,0 +1,8 @@
+INSERT INTO tb_cliente(email) VALUES ('maria@gmail.com');
+INSERT INTO tb_cliente(email) VALUES ('joao@gmail.com');
+INSERT INTO tb_cliente(email) VALUES ('ana@gmail.com');
+INSERT INTO tb_cliente(email) VALUES ('lucia@gmail.com');
+INSERT INTO tb_cliente(email) VALUES ('joaquim@gmail.com');
+
+INSERT INTO tb_passagem(preco, destino) VALUES (840.3, 'Cancun');
+

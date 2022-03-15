@@ -1,0 +1,5 @@
+package com.recode.agenciaVooFeliz.entities;
+
+public class Compra {
+
+}
