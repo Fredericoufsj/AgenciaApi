@@ -1,0 +1,22 @@
+package com.recode.agenciaVooFeliz.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.recode.agenciaVooFeliz.repositories.ClienteRepository;
+import com.recode.agenciaVooFeliz.repositories.CompraRepository;
+import com.recode.agenciaVooFeliz.repositories.PassagemRepository;
+
+@Service
+public class CompraService {
+	
+	@Autowired
+	private PassagemRepository passagemRepository;
+	
+	@Autowired
+	private ClienteRepository clienteRepository;
+	
+	@Autowired
+	private CompraRepository compraRepository;
+
+}

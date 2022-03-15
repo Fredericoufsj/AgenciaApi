@@ -1,0 +1,48 @@
+package com.recode.agenciaVooFeliz.dto;
+
+public class CompraDTO {
+
+	private Long PassagemId;
+	private String nome;
+	private String email;
+	private String quantidade;
+	
+	public CompraDTO() {
+		
+	}
+
+	public Long getPassagemId() {
+		return PassagemId;
+	}
+
+	public void setPassagemId(Long passagemId) {
+		PassagemId = passagemId;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getQuantidade() {
+		return quantidade;
+	}
+
+	public void setQuantidade(String quantidade) {
+		this.quantidade = quantidade;
+	}
+	
+	
+	
+}

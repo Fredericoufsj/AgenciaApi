@@ -1,0 +1,20 @@
+package com.recode.agenciaVooFeliz.controllers;
+
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.recode.agenciaVooFeliz.dto.CompraDTO;
+import com.recode.agenciaVooFeliz.dto.PassagemDTO;
+
+@RestController
+@RequestMapping(value = "/passagens")
+public class CompraController {	
+
+
+	@PutMapping()
+	public PassagemDTO saveCompra(@RequestBody CompraDTO dto){		
+		return null;		
+	}
+}
