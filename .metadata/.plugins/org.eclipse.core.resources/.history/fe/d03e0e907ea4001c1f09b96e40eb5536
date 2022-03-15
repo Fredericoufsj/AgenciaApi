@@ -1,0 +1,5 @@
+package com.recode.agenciaVooFeliz.dto;
+
+public class PassagemDTO {
+
+}

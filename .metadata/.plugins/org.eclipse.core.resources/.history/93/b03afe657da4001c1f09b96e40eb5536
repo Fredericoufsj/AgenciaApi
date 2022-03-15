@@ -1,0 +1,5 @@
+package com.recode.agenciaVooFeliz.repositories;
+
+public class PassagemRepository {
+
+}

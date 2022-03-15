@@ -1,0 +1,24 @@
+package com.recode.agenciaVooFeliz.dto;
+
+import com.recode.agenciaVooFeliz.entities.Passagem;
+
+public class PassagemDTO {
+
+	private Long id;
+	private String destino;
+	private Double Preco;
+	private String imagem;
+	
+	public PassagemDTO() {
+		
+	}
+
+	public PassagemDTO(Passagem passagem) {
+		this.id = passagem.getId();
+		this.destino = passagem.getDestino();
+		Preco = passagem.getPreco();
+		this.imagem = imagem;
+	}
+	
+	
+}
